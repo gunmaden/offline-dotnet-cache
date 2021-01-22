@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreRateLimit" Version="3.2.2" />
+    <PackageReference Include="Autofac" Version="6.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+    <PackageReference Include="CsvHelper" Version="21.1.0" />
+    <PackageReference Include="Exceptionless.AspNetCore" Version="4.6.2" />
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="FluentValidation" Version="9.4.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.29" />
+    <PackageReference Include="IdentityModel" Version="5.0.0" />
+    <PackageReference Include="log4net" Version="2.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.Extensions.ML" Version="1.5.4" />
+    <PackageReference Include="Microsoft.ML" Version="1.5.4" />
+    <PackageReference Include="Microsoft.ML.AutoML" Version="0.17.4" />
+    <PackageReference Include="Microsoft.ML.CpuMath" Version="1.5.4" />
+    <PackageReference Include="Microsoft.ML.Mkl.Components" Version="1.5.4" />
+    <PackageReference Include="Microsoft.ML.Recommender" Version="0.17.4" />
+    <PackageReference Include="Microsoft.ML.TensorFlow" Version="1.5.4" />
+    <PackageReference Include="Microsoft.ML.TimeSeries" Version="1.5.4" />
+    <PackageReference Include="Moq" Version="4.16.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="NJsonSchema" Version="10.3.3" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.7.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.10.0" />
+    <PackageReference Include="NodaTime" Version="3.0.4" />
+    <PackageReference Include="NSubstitute" Version="4.2.2" />
+    <PackageReference Include="Nuke.Common" Version="5.0.2" />
+    <PackageReference Include="NUnit" Version="3.13.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="Polly" Version="7.2.1" />
+    <PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
+    <PackageReference Include="RestClient.Net" Version="4.1.0" />
+    <PackageReference Include="RestClient.Net.Abstractions" Version="4.1.0" />
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+    <PackageReference Include="SharpZipLib" Version="1.3.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+  </ItemGroup>
+
+
+</Project>
